@@ -1,0 +1,12 @@
+a,img { outline:none; text-decoration:none; border:none; }
+#header1{ width:700px; margin:0 auto; }
+#header1 .header-inner{width:325px; float:left; background:url(../images/bg.png) no-repeat;  height:170px; padding-right:15px;}
+#header1 .header-inner h2{color:#fff; font-size:18px; font-weight:normal; padding:8px 0 0 18px;}
+#header1 .header-inner p{color:#333333; font-size:14px; padding:5px 0 0 20px;}
+#header1 .header-inner span{display:block; padding:35px 0 0 50px;}
+#edutech{width:700px; }
+#edutech .edu{width:325px; float:left; background:url(../images/bg_2.png) no-repeat; height:238px;padding-right:15px;}
+#edutech .edu h3{color:#fff; font-size:18px; font-weight:normal; padding:8px 0 0 18px;}
+#edutech .edu h4{color:#333333; font-size:16px; font-weight:normal; padding:10px 0 0 18px;}
+#edutech .edu p{color:#333333; font-size:14px; padding:5px 0 0 20px;}
+#edutech .edu span{display:block; padding:24px 0 0 50px;}

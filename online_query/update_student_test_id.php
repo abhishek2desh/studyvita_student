@@ -1,0 +1,1 @@
+<?php include_once '../config.php';	$id = $_GET['test_announce_id'];	$SQL = "UPDATE test_announce SET given_test = '1' WHERE id = $id";		$result1 = mysql_query($SQL);	if ($result1)	{		echo "Success";	}	else	{		echo "Failed";	}	include_once '../conn_close.php';?>

@@ -1,0 +1,46 @@
+#menu
+{
+	/*Styling the menu width and height*/
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	width:100%;
+	height:30px;
+	padding:0px 0px 0px 0px;
+  /* Creating the curved corner of the border*/
+  /*Styling the background with fading effect*/
+	background:#666666;
+	background: -moz-linear-gradient(top, #0404B4, #0080FF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0404B4), to( #0080FF));
+	 
+  /*Making the shadow effect into the menu bar */
+	box-shadow: inset 1px 1px 10px #FFFFFF;
+	-moz-box-shadow: inset 1px 1px 10px #FFFFFF;
+	-webkit-box-shadow: inset 1px 1px 10px #FFFFFF;
+	border:1px solid #000;
+	 
+}
+#menu li /*Styling the li part of the menu*/
+{
+	float:left;
+	padding:1px 0px 0px 2px;
+	display: block;
+	position:relative;
+	text-align:center;
+	margin-right:18px;
+	margin-top:7px;
+	border:none;
+	color:#CCCCCC;
+	font-weight: bold;
+	color:blue
+}
+#menu li a 
+{
+	text-decoration:none;
+	font-size:12px;
+	color:white;
+}
+#menu li:hover a 
+{
+	color:red;
+	text-shadow:1px 1px 10px #CCC;
+}

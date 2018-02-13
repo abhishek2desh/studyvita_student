@@ -1,0 +1,33 @@
+.defaultbutton, .defaultbutton:hover {
+border-color: #00a792;
+color: #fff;
+    background: #00bca4;
+    line-height: 32px;
+    height: 34px;
+    min-width: 34px;
+    
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    padding: 0 12px;
+    cursor: pointer;
+        border-radius: 3px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+  
+   text-transform: none;
+   font-family: inherit;
+   margin: 0;
+   box-sizing: border-box;
+       
+    text-shadow: none;
+        letter-spacing: normal;
+    word-spacing: normal;
+
+}

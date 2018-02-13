@@ -1,0 +1,18 @@
+#bg_div {
+  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.trable_bg {
+  /* fallback */
+  /* background-color: #0f2541;*/
+  background-color: white;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+
+

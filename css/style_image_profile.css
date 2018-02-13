@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.popup
+{
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+   top:0px;
+   min-height:200px;
+   height:100%;
+   z-index: 100;
+   background: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   display:none;
+}
+
+#profile_div
+{
+	position:absolute;
+	width:70%;
+	top:900px;
+	height:300px;
+	left:15%;
+	background-color:white;
+	padding:10px;
+	border:2px solid;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}
+
+#coupon_popup
+{
+	position:absolute;
+	width:30%;
+	top:200px;
+	height:100px;
+	left:30%;
+	background-color:white;
+	padding:10px;
+	border:2px solid;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}
+#profile_div_all
+{
+	position:absolute;
+	width:70%;
+	top:780px;
+	height:400px;
+	left:15%;
+	background-color:white;
+	padding:10px;
+	border:2px solid;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}

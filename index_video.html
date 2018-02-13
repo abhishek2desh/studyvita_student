@@ -1,0 +1,50 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- A minimal Flowplayer setup to get you started -->
+  
+
+	<!-- 
+		include flowplayer JavaScript file that does  
+		Flash embedding and provides the Flowplayer API.
+	-->
+	<script type="text/javascript" src="js/flowplayer-3.2.13.min.js"></script>
+	
+	<!-- some minimal styling, can be removed -->
+	
+	
+	<!-- page title -->
+	<title>Minimal Flowplayer setup</title>
+
+</head><body>
+
+	<div id="page">
+		
+		<h1>Minimal Flowplayer setup</h1>
+	
+		<p>View commented source code to get familiar with Flowplayer installation.</p>
+		
+		<!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
+		<a  
+			 href="http://www.coreacademics.in/LVV_2390_PHY_384_3829_ID_1237.MP4"
+			 
+			 style="display:block;width:520px;height:330px"  
+			 id="player"> 
+		</a> 
+	
+		<!-- this will install flowplayer inside previous A- tag. -->
+		<script>
+			flowplayer("player", "../flowplayer-3.2.18.swf");
+		</script>
+	
+		
+		
+		<!-- 
+			after this line is purely informational stuff. 
+			does not affect on Flowplayer functionality 
+		-->
+
+		
+	</div>
+	
+	
+</body></html>

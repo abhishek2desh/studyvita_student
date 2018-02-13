@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.popup
+{
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+   top:0px;
+   min-height:200px;
+   height:100%;
+   z-index: 100;
+   background: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   display:none;
+}
+#login_form
+{
+	position:absolute;
+	width:400px;
+	top:100px;
+	height:245px;
+	left:35%;
+	background-color:#c4f0f1;
+	padding:10px;
+	border:2px solid;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}
+.text_enquiry {
+    border: thin solid #000000;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #000000 inset;
+    color:black;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    height: 33px;
+    margin-bottom:1px;
+    margin-left:15px;
+    margin-top:6px;       
+    padding:1px;
+    width: 275px;
+}

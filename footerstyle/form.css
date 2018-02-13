@@ -1,0 +1,207 @@
+/* CSS Document */
+#register_main{float:left;}
+#register_main .heading{
+background-color:#0099CC;
+font-family:Calibri;
+font-size:16px;
+font-weight:bold;
+line-height:30px;
+color:#333333;
+text-transform:uppercase;
+text-align:left;
+border:1px solid #666666;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding-left:10px;
+}
+#register_main .main_table{
+margin:20px 10px 10px 10px;
+}
+.main_table .table_row{
+margin:5px 0 5px 0;
+}
+.table_row .title{
+font-size:14px;
+text-align:left;
+float:left;
+width:70px;
+line-height:22px;
+color:#333333;
+padding-left:27px;
+}
+.table_row .agree{
+font-size:12px;
+font-weight:bold;
+text-align:right;
+float:left;
+width:120px;
+margin:1px;
+line-height:22px;
+}
+.table_row .fields{
+float:left;
+width:50px;
+margin-left:0px;
+}
+.table_row .agree_text{
+float:left;
+width:220px;
+margin:1px;
+font-size:12px;
+font-weight:bold;
+line-height:20px;
+padding-left:5px;
+}
+.agree_text a{color:#FF0000;}
+.agree_text a:hover{color:#006600;text-decoration:underline;}
+.fields .textfields{
+width:175px;
+height:20px;
+font-size:12px;
+line-height:20px;
+padding:2px 0 0 2px;
+}
+.fields textarea{
+width:175px;
+height:40px;
+font-size:12px;
+padding-top:3px;
+}
+.fields .code_text{
+width:50px;
+height:25px;
+font-size:12px;
+line-height:20px;
+padding:2px 0 0 2px;
+border:1px solid #666666;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+float:left;
+margin-right:5px;
+}
+.fields .tele_text{
+float:left;
+width:140px;
+height:25px;
+font-size:12px;
+line-height:20px;
+padding:2px 0 0 2px;
+border:1px solid #666666;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+.fields select{
+width:205px;
+height:30px;
+font-size:12px;
+padding-top:5px;
+border:1px solid #666666;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+.table_row .tip{
+float:left;
+width:120px;
+margin:1px;
+font-size:10px;
+text-align:left;
+padding-left:5px;
+line-height:22px;
+}
+.table_row .error{
+font-size:12px;
+float:left;
+width:250x;
+padding-left:30px;
+margin:1px;
+background:url(../images/validate_error.png) no-repeat left;
+behavior:url(../seadmin/js/iepngfix.html) !important;
+color:#d33232;
+line-height:22px;
+}
+.submit, .button {
+	text-align:center;
+	background-color:#8BCC6E;
+	height:30px;
+	width:80px;
+	float:left;
+	font-weight:bold;
+	color:#333333;
+	font-size:13px;
+	margin:0px;
+	margin-top:10px;
+	border:1px solid #8BCC6E;
+	padding:0 10px;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+}
+.submit:hover, .button:hover {
+	cursor:pointer;
+	color: #fff;
+	border:1px solid #666666;
+	background-color:#00325D;
+}
+.button {
+	
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+	padding-left:10px;
+	padding-right:10px;
+	height:19px;
+	padding-top:3px;
+}
+.message{
+margin-bottom:5px;
+color:#339900;
+font-size:14px;
+font-weight:bold;
+background:none;
+}
+.succes {
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+	background:#b9e57b;
+	border:1px solid #41a808;
+	-moz-border-radius:5px;
+	height:48px;
+	-webkit-border-radius:5px;
+	background:url(../images/success.png) no-repeat 0 0;
+}
+.succes .succes_icon {
+	float:left;
+	width:48px;
+	height:48px;
+	margin:14px;
+	background:url(../images/success.png) no-repeat 0 0;
+}
+.desc {
+	float:left;
+	width:80%;
+}
+.desc p {
+	float:left;
+	color:#000 !important;
+	font-size:14px;
+}
+.desc span {
+	float:left;
+	width:100%;
+	font-weight:bold;
+	font-size:1.2em;
+	padding-bottom:2px;
+	margin-top:15px;
+}
+.uname_err{
+font-size:12px;
+font-weight:bold;
+line-height:20px;
+margin:10px;
+color:#FF0000;
+}
+.star{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#FF0000;
+padding-left:3px;
+}

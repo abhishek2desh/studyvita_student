@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.popup
+{
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+   top:0px;
+   min-height:200px;
+   height:100%;
+   z-index: 100;
+   background: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   display:none;
+   
+}
+#Democourse_instruction
+{
+	position:absolute;
+	width:450px;
+	top:35%;
+	left:33%;
+	background-color:white;
+	padding:10px;
+	border:1px solid #AAA;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}

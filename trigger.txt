@@ -1,0 +1,515 @@
+USE edutech_learning_system;
+
+DELIMITER |
+
+CREATE TRIGGER repeatchecked_fileuniqid_a BEFORE INSERT ON  `repeatchecked_fileuniqid`
+FOR EACH ROW BEGIN
+SET new.create_date := NOW();
+SET new.modify_date := NOW();
+END;
+
+|
+
+CREATE TRIGGER repeatchecked_fileuniqid_b BEFORE UPDATE ON repeatchecked_fileuniqid
+FOR EACH ROW BEGIN
+SET new.modify_date := NOW();
+END;
+|
+
+DELIMITER     ;
+
+$today = date("Y-m-d", strtotime('today'));
+
+  if (parseInt(v1, 10) == 100) {
+   $("#tbthitdnominee,#tbthirdper").attr("disabled", false);
+http://cheapsms.highspeedsms.com
+
+//for select option from dropdownlist
+	$("#text_course_type option[value='3']").attr("selected", "selected");
+//end
+
+//for seelct checkbox from div
+$("#text_subject [value=15]").attr("checked", "checked");
+//end
+
+//div empty
+	$("#faculty_list").html("");
+
+DESC LIMIT 13
+//
+
+//
+	echo $row[0]."|".$row[1]."|".$row[2]."|".$row[3]."|".$row[4]."|".$row[5];
+
+//for get option selected text
+	$("#text_course option:selected").text();
+//end
+//for emty textbox val
+$("#marks").val('');
+//end
+//unselect option value
+ $('#text_level > option').removeAttr("selected");
+//end
+
+ORDER BY q.DocumentID DESC LIMIT 13
+
+//for getting radiobuttn cheked value
+$("input[name=sms_send]:checked").val()
+
+//for cheked radiobutton
+jQuery("#3").attr('checked', 'checked'); 3 is id
+document.getElementById('_1234').checked = true; _1234 id radi button id
+
+//explode or split  in php
+	$lst = explode(",", $cat_id);
+foreach($lst as $item) 
+//for goto another page
+url="online test 3.php";
+					document.location.href=url;
+//for select option value giving item no
+where batch_id_new is select name
+
+$('select[name=batch_id_new] option:eq(1)').attr('selected', 'selected');
+
+//for current date
+<input type="text" id="datepicker37" value="<?php echo $today ?>" style='width:100px;'/>
+
+//insert with select
+INSERT INTO `student_registered_course` (course_id, user_id, batch_id) 
+SELECT '267',user_id, batch_id
+FROM `student_details`
+//end 
+WHERE batch_id = 141
+
+//strn length
+strlen("Hello")
+//
+//for div hde
+	$("#41").hide();
+//for class hide
+$(".text_course_comp").hide();
+
+  	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/edutech_file.js" type="text/javascript"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+
+
+//for take select option text
+chname=$("#text_chapter option:selected").text();//
+
+//for select dropdown with variable
+var stdata="";
+	$("#required_que option[value="+stdata+"]").attr("selected", "selected");
+//end
+
+//taskkill
+taskkill /f /im winword.exe
+//end taskkil
+
+//for alert msg in java script
+var x;
+				var r=confirm("Update attendance Click Ok ?");
+				if (r==true)
+				  {
+					x="You pressed OK!";
+					filename = "query/insert_attendance.php?wb_id="+wb+"&present_id="+present_id+"&absent_id="+absent_id+"&user_id="+uid;
+					getInsert_attendance(filename);
+					
+				  }
+				else
+				  {
+					x="You pressed Cancel!";
+				  }
+//end for alert msg in java script
+
+//for demologout link
+Demo-http://tympanus.net/Tutorials/CustomDropDownListStyling/index5.html
+Source-http://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/
+//end demo logout
+
+
+//for cureent date in php
+$today34 = date("Y-m-d H:i:s",strtotime(date("Y-m-d H:i:s")." +630 minutes"));
+		//$today34 = date("Y-m-d H:i:s");
+//end
+
+//for checking numeric o rnot
+ if (is_numeric($element)) {
+        echo "'{$element}' is numeric", PHP_EOL;
+    } else {
+        echo "'{$element}' is NOT numeric", PHP_EOL;
+    }
+/end
+
+//for count total checked checkbox
+var numberOfChecked =	$("#text_subject input:checkbox:checked").length;
+						//alert(numberOfChecked)
+//end
+
+//for check checkbox selectted or not in php
+$text_batch=$_POST['checkboxname'];
+		 if(empty($text_batch)) 
+		 {
+		 $message2="unselect";
+		 }
+		 else
+		 {
+		 $message2="selected";
+		 }
+//end
+
+//substring
+$rest = substr("abcdef", 2, -1);  // returns "cde"
+//end substring
+
+//date in php
+$today = date("Y-m-d", strtotime('today'));
+//end
+
+//date fromat in query
+DATE_FORMAT(test_date,'%d-%m-%Y')
+//end
+
+//compare integer in javascript
+if(parseInt(count) < parseInt(req_que))
+//end
+//fetch varchar as integer mysql query
+SELECT DISTINCT id,CAST(NAME AS UNSIGNED   INTEGER),NAME FROM standard ORDER BY CAST(NAME AS UNSIGNED   INTEGER)
+SELECT DISTINCT id,CAST(NAME AS SIGNED   INTEGER),NAME FROM standard ORDER BY CAST(NAME AS SIGNED   INTEGER)
+//end fetch
+//for textarea
+<textarea id="text_rectype" rows="4" cols="30">								 </textarea>
+//end textarea
+//date in php
+$today = date('Y-m-d H:i:s');
+//end date
+//array in php
+$array = array();
+$rs = mysql_query("SELECT DISTINCT email_id,email_password FROM `promotional_email`  order by id");
+$total_email=mysql_num_rows($rs);
+	while($row = mysql_fetch_array($rs))
+	{
+	$array[] = $row[0]."|".$row[1];
+	}
+echo $array[0];
+echo $array[1];
+//end array
+
+//option select with selected value
+$("#text_course_type option[value=" + dtsplit[0] +"]").attr("selected", "selected");
+//end
+
+//for change label text
+ $("#sum1").text(total);
+sum1 is label id
+//end
+//compare date in php
+	if(strtotime($datetoday)>strtotime($login_expdate))
+//end
+//value of textbox by giving id name manually
+ online_id_f=online_id2+"-"+online_id2;
+fees=$('#'+ online_id_f).val();
+//end
+
+//condition for numeric field function
+var specialKeys = new Array();
+											specialKeys.push(8); //Backspace
+											$(function () {
+												$(".inputs1").bind("keypress", function (e) {
+													var keyCode = e.which ? e.which : e.keyCode
+													var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+													$(".error").css("display", ret ? "none" : "inline");
+													return ret;
+												});
+												$(".inputs1").bind("paste", function (e) {
+													return false;
+												});
+												$(".inputs1").bind("drop", function (e) {
+													return false;
+												});
+											});
+//end
+
+//for open window buuton click
+<input type="BUTTON" id="view_video" class="button_css" name="view_video" value="Video Tutorial" onclick="location.href = 'http://faculty.coreacademics.in/tutorial_faculty.php';" />	
+//end
+//for open window buuton click on new tab
+<input type="BUTTON" id="view_video" class="button_css" name="view_video" value="Video Tutorial" onclick="window.open('https://www.youtube.com/watch?time_continue=125&v=fBf-1mBHb1o')" />		
+//end
+
+//replace in php
+
+	$row[1] = preg_replace('/[0-9-.]+/', '', $row[1]);
+//end
+
+mat_id2=mat_id.slice(0,-4);JAVA SCRIPT
+
+//last dot split in php
+substr($path_final, 0, strripos($path_final, '.')).".pdf"
+//end
+//substring php
+$newstring = substr($dynamicstring, 0,-3);
+//end
+
+//copy paste bind in javascript
+<input type="text" class='inputs1' id='text_phone' name="text_phone" required placeholder='Enter Contact Number'/>
+										
+										<script type="text/javascript" src="js/jquerynumeric.min.js"></script>
+										<script type="text/javascript">
+											var specialKeys = new Array();
+											specialKeys.push(8); //Backspace
+											$(function () {
+												$(".inputs1").bind("keypress", function (e) {
+													var keyCode = e.which ? e.which : e.keyCode
+													var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+													$(".error").css("display", ret ? "none" : "inline");
+													return ret;
+												});
+												$(".inputs1").bind("paste", function (e) {
+													return false;
+												});
+												$(".inputs1").bind("drop", function (e) {
+													return false;
+												});
+											});
+										</script>
+									</td>
+									<td>
+									<span class="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+//end copy paset
+
+//var numberOfChecked =	$("#text_subject input:checkbox:checked").length;
+
+//for string contain code php
+$lst = explode(",", $sub_id);
+				foreach($lst as $item) 
+				{
+					if($item=="")
+					{
+					}
+					else
+					{
+					$str_store_temp=",".$item.",";
+					//echo $str_store_temp."<br/>";
+					 if (strpos($str_store,$str_store_temp) !== false)//include string
+					 {
+					//echo "in if";
+					 }
+					 else //not include
+					 {
+					  $str_store=$str_store.$item.",";
+					 $result1=mysql_query("SELECT name  FROM subject WHERE id='$item'");
+						while($row1=mysql_fetch_array($result1))
+						{
+							echo "<tr>";
+							if($row1[0]=="All")
+							{
+							$row1[0]="Mock";
+							}
+							echo "<td style='color:black;border:solid 0px;width:160px;'><input type='checkbox' name='name_sb[]' id='$item' class='ck' value='$item' />".$row1[0]."</td>";
+							echo "</tr>";
+						
+						}
+					 }
+//end code
+/*var timeout = null;
+    var timee = '120000'; // default time for session time out 2miunutes.
+    $(document).bind('click keyup mousemove', function(event) {
+
+    if (timeout !== null) {
+            clearTimeout(timeout);
+        }
+        timeout = setTimeout(function() {
+              timeout = null;
+            //console.log('Document Idle since '+timee+' ms');
+            alert("idle window");
+        }, timee);
+    });*/
+     
+//substring java
+var str = "Hello world!";
+var res = str.substr(1, 4);
+//end 
+
+//select select with string value
+ $("#text_cat option[value='" + valNew[2] +"']").attr("selected", "selected");
+//end
+//array in php
+$array = array();
+$array[] = $row[0]."|".$row[1]."|".$row[2];
+$array[$k]
+//end array in php
+
+//update in php
+$SQL = "UPDATE batch  SET active='0' WHERE id='$item'  ";
+			$result = mysql_query($SQL);
+			if ($result)
+			{
+				
+					
+					
+				
+			}
+			else
+			{
+				echo "Failed";
+			}
+	$rs = mysql_query("SELECT distinct u.id AS id,u.name AS st_name,u.address st_address,u.email AS st_email,u.contact_no AS st_mobile,s.res_phone_no 
+AS st_resphone,c.name AS st_course,b.name AS st_batch,u.username AS st_username,u.password AS st_pwd,u.parent_username 
+AS st_pusername,u.parent_password AS st_ppwd,u.special_remark As rmk FROM `user` u,student_details s,batch b,course c,course_type_mapping cm WHERE s.user_id=u.id 
+AND b.id=s.batch_id AND cm.id=b.course_type_mapping_id AND cm.course_id='$course_id' AND b.id='$batch_id' AND c.id=cm.course_id");
+$rw = mysql_num_rows($rs);
+while($row = mysql_fetch_array($rs))
+{
+}
+//end php
+
+ url = "student_course_page.php?course_id=" + course_id + "&batch_id=" + batch_id + "&subject_id=" + subject_id + "&domainname=" + domainname1 + "&vl=1";
+                    //location.href=url.substr(0, input.lastIndexOf('?')) || url;
+                    //alert(url);
+                    location.href = url;
+
+<input type="text" id="datepicker35" value="<?php echo $today ?>" />
+
+//date in php
+	$today = date("Y-m-d", strtotime('today'));
+$Date_now =date('Y-m-d');
+
+//get fullday name from date in php
+$weekday=date('l',strtotime($date));
+
+APOSTROPHIC IN HTML
+
+substring in php
+	$sl_dy1=substr($weekday,0, 3);
+
+//subtract date in php
+<input type="text" id="datepicker34"  value="<?php echo date('Y-m-d', strtotime($today. ' - 7 days')) ?>" />
+
+//open in new tab url
+var url = "download-upload-document.php?document_name="+document_name;
+					//alert(url);
+					var win=window.open(url, '_blank');
+					win.focus();
+
+
+set background in html
+.contents{
+background: #fff url(GeneralDocument/cartoon_butterfly_flaying_colour_animation_clipart_67.gif) no-repeat center top;
+}
+//end
+//in phph check string contain
+$str_store_temp=",".$item.",";
+					//echo $str_store_temp."<br/>";
+					 if (strpos($str_store,$str_store_temp) !== false)
+					 {
+					//echo "in if";
+					 }
+					 else
+					 {
+					  $str_store=$str_store.$item.",";//end php
+//table row count in div jquesry
+var rowCount = $("#mytable tr").length-1;
+mytable id table id
+//end
+
+window.scrollBy(0, 400);
+
+ var url=data;
+                     //alert(url);
+					 window.open(url,'_blank');
+
+//table count total row
+var totalcount= $("#mytable tr").length-1;
+							if(totalcount=="-1")
+							{
+							totalcount=0;
+							}
+//
+
+<script type="text/javascript">
+  setInterval(function(){
+      $('blink').each(function(){
+        $(this).css('visibility' , $(this).css('visibility') === 'hidden' ? '' : 'hidden')
+      });
+    }, 250);
+</script>
+
+	 if (is_numeric($row[6]))
+{
+}
+
+
+//for table bordre single
+<style>
+	table#t01 {
+   border: 1px solid black;
+    border-collapse: collapse;
+}
+<table style='width:100%;border:solid 1px;' id='t01' >
+</style>
+//end 
+
+dateformat in mysql
+DATE_FORMAT(create_date,'%d-%m-%Y  %h:%i %p')
+
+//get checkbox cehck val in java
+var x = document.getElementById("student").checked;
+				alert(x);
+//chapter description more
+
+if(strlen($chapter_desc)>25)
+			{
+			$stre=substr($chapter_desc,0,25);
+			$ch_length=strlen($chapter_desc);
+			$total_int=$ch_length/25;
+			$chapter_desc_new="";
+			$start_int=0;
+			for($x=0; $x<=$total_int;$x++)
+			{
+			$chapter_desc_new=$chapter_desc_new.substr($chapter_desc,$start_int,25)."<br/>";
+			$start_int=$start_int+25;
+			}
+			//echo "<td style='border:solid 1px;' valign='top'><div>".$stre."<input type='button' id='more_chapter_body' value='View more' style='display: inline-block;'></div></td>";
+			echo "<td style='border:solid 1px;' valign='top'><div>".$chapter_desc_new."</div></td>";
+			}
+
+//subsring replace
+$newString = str_replace(",","','",$total_que_str);
+//end
+//string contains
+if (strpos($concept_list_old,$c_temp) !== false)
+							 {
+							//contains
+							 	
+							 }
+							 else
+							 {
+//end contains
+							$concept_list_old=$concept_list_old.$row_concept[0].",";
+									$ReviseTopics=$ReviseTopics.$row_concept[0].",";
+							 }
+//edn string contains
+//for loop
+for ($x = 0; $x <= 10; $x++) 
+{
+}
+//end for loop
+
+//for display or print in php
+print_r($device_details);
+//end display
+//for check seleted radiobutton in div
+	var idArray34="";
+				$("#fee_structure_data input:radio:checked").each(function() {
+						idArray34=this.id;
+						
+				});
+//end check
+
+var theText="Cash";
+				$("#paytype1 option:contains(" + theText + ")").attr('selected', 'selected');
+
+https://codepen.io/minipai/pen/Etnhv
+
+http://demos.inspirationalpixels.com/Tabs-with-HTML-CSS-&-jQuery/

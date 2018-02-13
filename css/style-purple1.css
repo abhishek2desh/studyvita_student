@@ -1,0 +1,116 @@
+.btn.style4.btn-sm {
+    line-height: 30px
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #b53cd3
+}
+a:focus {
+    outline: none
+}
+.btn.style4 {
+    background: #1b4268;
+    border: 1px solid #d4dde5;
+    color: white;
+    line-height: 40px
+}
+.btn.btn-sm {
+    height: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0 20px;
+    font-size: 0.8333em;
+    -webkit-border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;
+    -ms-border-radius: 14px 14px 14px 14px;
+    border-radius: 14px 14px 14px 14px
+}
+.btn.style4 {
+    background: #1b4268;
+    border: 1px solid #d4dde5;
+    color: white;
+    line-height: 40px
+}
+.btn.style4.btn-sm {
+    line-height: 26px
+}
+.btn.style4.btn-lg {
+    line-height: 45px
+}
+.btn.style4.btn-xl {
+    line-height: 55px
+}
+.btn.style4:hover,
+.btn.style4:active,
+.btn.style4:focus,
+.btn.style4.active {
+    color: #fff;
+    border-color: #b53cd3;
+    background: #b53cd3
+}
+.btn.style4.hover-blue:hover,
+.btn.style4.hover-blue:active,
+.btn.style4.hover-blue:focus,
+.btn.style4.hover-blue.active {
+    border-color: #1b4268;
+    background: #1b4268
+}
+.btn.style4.color-white {
+    border-color: #fff
+}
+.btn.style4.color-white:hover,
+.btn.style4.color-white:active,
+.btn.style4.color-white:focus,
+.btn.style4.color-white.active {
+    border-color: #b53cd3
+}
+.btn.style4.color-black {
+    border-color: #343434;
+    color: #343434
+}
+.btn.style4.color-black:hover,
+.btn.style4.color-black:active,
+.btn.style4.color-black:focus,
+.btn.style4.color-black.active {
+    border-color: #b53cd3;
+    color: #fff
+}
+.btn.style4.bg-white {
+    background: #fff
+}
+.btn.style4.bg-white:hover,
+.btn.style4.bg-white:active,
+.btn.style4.bg-white:focus,
+.btn.style4.bg-white.active {
+    background: #b53cd3
+}
+.btn {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 30px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #b53cd3;
+    font-size: 0.9167em;
+    height: 42px;
+    line-height: 42px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -ms-border-radius: 21px 21px 21px 21px;
+    border-radius: 21px 21px 21px 21px;
+    margin-right: 5px;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    box-shadow: none;
+    vertical-align: baseline
+}

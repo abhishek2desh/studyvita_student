@@ -1,0 +1,22 @@
+USE edutech_learning_system;
+
+DELIMITER |
+
+CREATE TRIGGER repeatchecked_fileuniqid_a BEFORE INSERT ON  `repeatchecked_fileuniqid`
+FOR EACH ROW BEGIN
+SET new.create_date := NOW();
+SET new.modify_date := NOW();
+END;
+
+|
+
+CREATE TRIGGER repeatchecked_fileuniqid_b BEFORE UPDATE ON repeatchecked_fileuniqid
+FOR EACH ROW BEGIN
+SET new.modify_date := NOW();
+END;
+|
+
+DELIMITER     ;
+
+UPDATE batch SET end_on='2016-03-31' WHERE `course_type_mapping_id` IN(SELECT DISTINCT ct.id AS coursemappingid FROM course c,`course_type_mapping` ct WHERE ct.course_id=c.id 
+AND ct.course_type_id=4)

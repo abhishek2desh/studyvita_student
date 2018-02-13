@@ -1,0 +1,82 @@
+
+/* ---------- LAYOUT ---------- */
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#logo img {
+  margin: 2em 0;
+}
+.timer-area {
+  background: transparent url('../images/timer-area-pattern.png') left top;
+  text-align: left;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.timer-area h1 {
+  color: white;
+}
+
+/* ---------- TIMER ---------- */
+ul#countdown li {
+  display: inline-block;
+  background: transparent url('../images/timer-piece.png') no-repeat left top;
+  width: 35px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+ul#countdown li span {
+  font-size: 1em;
+  font-weight: bold;
+  color: #1f2225;
+  height: 10px;
+  line-height: 8px;
+  position: relative;
+}
+/*
+ul#countdown li span::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 8px;
+}*/
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  margin-top: 0;
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .575em;
+}
+
+/* ---------- TIMER Regular ---------- */
+ul#countdown1 li {
+  display: inline-block;
+  background: transparent url('../images/timer-piece.png') no-repeat left top;
+  width: 35px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+ul#countdown1 li span {
+  font-size: 1em;
+  font-weight: bold;
+  color: #1f2225;
+  height: 10px;
+  line-height: 8px;
+  position: relative;
+}
+ul#countdown1 li p.timeRefDays,
+ul#countdown1 li p.timeRefHours,
+ul#countdown1 li p.timeRefMinutes,
+ul#countdown1 li p.timeRefSeconds {
+  margin-top: 0;
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .575em;
+}

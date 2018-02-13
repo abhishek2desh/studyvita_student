@@ -1,0 +1,92 @@
+
+body {
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: verdana;
+}
+
+h2{
+  font-size: 1.3em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+}
+.inputField{
+  font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.removePadding{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.width100{
+  width: 100%;
+}
+.materialshadow {
+  box-shadow:0 5px 15px rgba(0,0,0,0.1)
+}
+
+/*background colors begin*/
+.materialBackBlue{
+  background: #2196F3;
+}
+
+.materialBackWhite{
+  background: #FFFFFF;
+}
+/*background colors end*/
+
+/*font Colors begin*/
+.materialFontWhite{
+   color: #FFFFFF;
+}
+
+/*accent colors*/
+.materialAccentAmberFont{
+  color: #FFC107;
+}
+
+/*float begin*/
+.floatLeft{
+  float: left;
+}
+
+.floatRight{
+  float:right;
+}
+
+
+
+.fontWhite{
+  color: white;
+}
+
+.circle{
+ border-radius:90px;
+ background:white;
+ color:#FFC107;
+ width:90px;
+ line-height:90px;
+}
+.circle-select{
+ border-radius:90px;
+ background:white;
+ color:#FFC107;
+ width:90px;
+ height: 90px;
+ line-height:90px;
+ text-align: center;
+ font-size: 1.3em;
+font-weight: bold;
+}
